@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Challenge: Change the color of a webpage</title>
+    <script>
+        // Function to change webpage background color
+        function changeBodyBg(color) {
+            document.body.style.background = color;
+        }
+
+        // Function to change heading background color
+        function changeHeadingBg(color) {
+            document.getElementById("heading").style.background = color;
+        }
+    </script>
+</head>
+
+<body>
+    <h1 id="heading">Meatpie</h1>
+    <p> Nigerian Meat Pie is my go-to Nigerian pastry. I always make sure I’ve got them stored away in my freezer so I
+        can easily reach for them whenever I begin to crave junk food. Nigerian meat pie is quite easy to make, you can
+        even use the same recipe for Chicken pie, just replace the minced meat with minced chicken and you’re good to
+        go.
+        I thought I loved my Meat Pie plain and simple until I got to speak with someone recently who wanted me to make
+        meat pies for him but he wanted just the mince and potatoes in them, nothing more. No carrots, no peppers, no
+        onions, nothing! Just the mince and potatoes, different strokes ei? Truth be told I’m not a fan of “crowded”
+        meat pies as well, I love to keep them as simple as possible.
+        So here’s my simple Nigerian Meat Pie recipe, this recipe should make 8-9 medium size meat pies.
+    </p>
+    <hr>
+    <div>
+        <label>Change Webpage Background To:</label>
+        <button type="button" onclick="changeBodyBg('yellow');">Yellow</button>
+        <button type="button" onclick="changeBodyBg('lime');">Lime</button>
+        <button type="button" onclick="changeBodyBg('orange');">Orange</button>
+        <button type="button" onclick="changeBodyBg('white');">Default</button>
+    </div>
+    <br>
+    <div>
+        <label>Change Heading Background To:</label>
+        <button type="button" onclick="changeHeadingBg('red');">Red</button>
+        <button type="button" onclick="changeHeadingBg('green');">Green</button>
+        <button type="button" onclick="changeHeadingBg('blue');">Blue</button>
+        <button type="button" onclick="changeBodyBg('white');">Default</button>
+    </div>
+</body>
+
+</html>
