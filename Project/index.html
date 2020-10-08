@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Osman Dayyabu</title>
+    <style media="screen">
+     
+      @-ms-viewport{
+         width: device-width;
+
+      }
+      body{
+
+        border: 3px solid black;
+        width: 85%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+
+      }
+      #mybody{
+        padding: -60px
+      }
+      td {
+        padding:10px;
+        background-color: white;
+
+      }
+
+      table {
+        margin: auto;
+        padding-top: 60px;
+
+      }
+
+      #name{
+        text-align:left;
+        font-family:Open sans light;
+        font-size:4em;
+        width: 700px;
+        /*margin-left: 10px;*/
+      }
+      #Add{
+        text-align:right;
+        font-size: 1em;
+        color: rgb(50,200,200);
+        font-family:Open sans;
+        font-weight: bold;
+        
+      }
+      #firstintro, #intrests, #Skl, #explore{
+        text-align:left;
+        font-size: 1em;
+        font-family:Open sans;
+        color: green;
+        width:200px;
+
+
+      }
+      #duction, #hobbies, #Skill, #exploration{
+        line-height: 30px;
+        font-family: Open sans light;
+        font-size: 1em;
+        width: 800px;
+      }
+      #two,#three,#four {
+        padding-bottom: 40px;
+      }
+      #four {
+        /*padding-top: 20px;*/
+      }
+      .firstline {
+        border: 0.5px solid rgb(204,197,197);
+        width: 65%;
+        margin:auto;
+      }
+
+      .to-top {
+  background: white;
+  position: fixed;
+  bottom: 16px;
+  right:32px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32px;
+  color:#1f1f1f;
+  text-decoration: none;
+  opacity:0;
+  pointer-events: none;
+  transition: all .4s;
+}
+
+.to-top.active {
+  bottom:32px;
+  pointer-events: auto;
+  opacity:1;
+}
+
+
+
+      /*.Nom,#first, .duct, .What{
+        color: white;
+      }*/
+    </style>
+
+  </head>
+  <body id="mybody">
+
+      <table>
+          <tbody>
+            <tr>
+              <td><img src="https://download.blender.org/branding/community/blender_community_badge_white.png" alt="blender" width="150px"></td>
+              <td id= "name"><strong>Usman</strong> Dayyabu</td>
+              <td id ="Add" >Kano, Nigeria <br>08113384717 <br>Graphic Designer<br></td>
+            </tr>
+          </tbody>
+      </table>
+    <div  class="firstline"></div>
+    <table id = "two">
+        <tbody>
+          <tr>
+            <td id ="firstintro"><strong>Intro</strong></td>
+            <td id= "duction"> I have been using computer since when i was 6, i loved editing vedios that time like adding special effects and filters to a vedio, when i grew up i started learning graphic design, i learned how to model and sculp things using blender and even shading to it, animate it and render it<br> i also learned c++ though im not good at it, i spend most of my time in graphic design </td>
+
+          </tr>
+        </tbody>
+    </table>
+    <div  class="firstline">
+    </div>
+    <table id = "three">
+        <tbody>
+          <tr>
+            <td id ="intrests"><strong>Intrests</strong></td>
+            <td  id= "hobbies"> Graphic Design, Web Design and Programming </td>
+
+          </tr>
+        </tbody>
+    </table>
+    <div id="one" class="firstline">
+    </div>
+    <table id = "four">
+        <tbody>
+          <tr>
+            <td id ="Skl"><strong>Skills</strong></td>
+            <td id= "Skill"> <img src="https://www.flaticon.com/svg/static/icons/svg/143/143655.svg" alt="HTML" width="100px">
+              <img src="https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png" alt="css" width="100px">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="photoshop" width="100px">
+              <img src="https://download.blender.org/branding/community/blender_community_badge_white.png" alt="blender" width="100px">
+              </td>
+
+          </tr>
+        </tbody>
+    </table>
+     <div id="one" class="firstline">
+    </div>
+    <table id = "five">
+        <tbody>
+          <tr>
+            <td id ="explore"><strong>Experience</strong></td>
+            <td id= "exploration"> 
+              Ehealth Africa<br>
+              Second Cohortees<br>
+              <ul>
+                <li>Learned the basics and fundamentals of HTML, CSS and Javascript.</li>
+              </ul>
+              </td>
+
+          </tr>
+        </tbody>
+    </table>
+    <div id="first" class="firstline">
+    </div>
+    <a href="#" class="to-top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+    <script src="https://kit.fontawesome.com/bf6ebf8a5a.js" crossorigin="anonymous"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+
+<script>
+
+
+  var options = {
+      bottom: '64px', // default: '32px'
+      right: 'unset', // default: '32px'
+      left: '32px', // default: 'unset'
+      time: '0.5s', // default: '0.3s'
+      mixColor: '#fff', // default: '#fff'
+      backgroundColor: '#fff',  // default: '#fff'
+      buttonColorDark: '#100f2c',  // default: '#100f2c'
+      buttonColorLight: '#fff', // default: '#fff'
+      saveInCookies: false, // default: true,
+      label: '🌓', // default: ''
+      autoMatchOsTheme: true // default: true
+}
+
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+
+
+        const toTop = document.querySelector(".to-top");
+
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 100) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
+  }
+})
+
+
+</script>
+
+  </body>
+</html>
